@@ -1,0 +1,14 @@
+#!/bin/bash -e
+
+if [[ -z $1 ]]; then
+    echo "No container specified"
+    exit 1
+fi
+
+logFile=$(docker inspect -f '{{.LogPath}}' $1 2> /dev/null)
+
+echo -n "Cleaning ${logFile}... "
+d4mexec << EOF
+> $logFile
+EOF
+echo "done"

@@ -1,0 +1,53 @@
+#!/usr/bin/env Rscript
+# Copyright (c) 2017 Shantanu Sharma
+# 
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+# 
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+# 
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+# THE SOFTWARE.
+# 
+
+pkgLoad <- function( packages = "favorites" ) {
+
+    if( length( packages ) == 1L && packages == "favorites" ) {
+        packages <- c( "data.table", "chron", "plyr", "dplyr", "shiny",
+                       "shinyjs", "parallel", "devtools", "doMC", "utils",
+                       "stats", "microbenchmark", "ggplot2", "readxl",
+                       "feather", "googlesheets", "readr", "DT", "knitr",
+                       "rmarkdown", "Rcpp"
+        )
+    }
+
+    packagecheck <- match( packages, utils::installed.packages()[,1] )
+
+    packagestoinstall <- packages[ is.na( packagecheck ) ]
+
+    if( length( packagestoinstall ) > 0L ) {
+        utils::install.packages( packagestoinstall,
+                             repos = "http://lib.stat.cmu.edu/R/CRAN"
+        )
+    } else {
+        print( "All requested packages already installed" )
+    }
+
+    for( package in packages ) {
+        suppressPackageStartupMessages(
+            library( package, character.only = TRUE, quietly = TRUE )
+        )
+    }
+}
+
+pkgLoad()

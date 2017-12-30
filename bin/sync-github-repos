@@ -1,0 +1,104 @@
+#!/bin/bash
+# Copyright (c) 2014 Shantanu Sharma
+# 
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+# 
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+# 
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+# THE SOFTWARE.
+# 
+
+# Set repofile to the configuration file containing github repository list
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+repofile="${DIR}/../etc/github-repos.cfg"
+
+# All github projects go to ${HOME}/Projects
+cd ${HOME}/Projects
+
+# Find number of github repositories in configuration file
+numrepo=`wc -l $repofile | awk '{print $1}' `
+
+if [[ $1 == "" ]]; then
+  start=1
+else
+  start=`grep -n "\/$1\.git" $repofile | cut -d':' -f1`
+fi
+if [[ $start == "" ]]; then
+  start=1
+fi
+
+# Iterate over all github repositores:
+# Parse github repository URL, master branch name and remote upstream branch name from configuration file
+for i in `seq $start $numrepo`; do \
+  repoline=`head -n $i $repofile | tail -n 1` ;
+  repo=`echo $repoline | cut -d' ' -f1` ;
+  upstream=`echo  $repoline |  cut -d' ' -f2` ;
+  upbranch=`echo $repoline | cut -d' ' -f3` ;
+  remoterepotype=`echo $repoline | cut -d' ' -f4` ;
+  
+  #echo "repo: $repo upstream: $upstream upbranch: $upbranch"
+  
+  # Handle both cases, when repository is (i) ssh-based and (ii) https-based.
+  if [[ $repo == https* ]] ; then
+    repodirGitSuffix=`echo $repo | cut -d'/' -f5` ;
+  else
+    repodirGitSuffix=`echo $repo | cut -d'/' -f2` ;
+  fi
+  repodir=${repodirGitSuffix%.git}
+  
+  # If local repository is missing, create and clone repository from GitHub
+  if [ ! -d $repodir ] ; then
+    git clone --recursive $repo ;
+  
+    # Proceed only if git clone succeeded:
+    if [ -d $repodir ] ; then
+      cd $repodir ;
+      # Set upstream branch name
+      if [[ $remoterepotype == git ]] ; then
+        git remote add upstream $upstream ;
+      elif [[ $remoterepotype == svn ]] ; then
+        git config --add svn-remote.upstream.url $upstream
+        git config --add svn-remote.upstream.fetch :refs/remotes/upstream
+      fi
+    fi
+    # Else, just change to the repository directory
+  else 
+    cd $repodir ;
+  fi
+  
+  echo $repo
+
+  # Proceed only if we were successful in stepping into project directory:
+  if [ "$(basename $PWD)" == $repodir ]; then
+    
+    # Fetech, update and merge the repository
+    if [[ $remoterepotype == git ]] ; then
+      git pull --recurse-submodules
+      git fetch origin ; 
+      git fetch upstream ; 
+      git merge upstream/${upbranch} -m "Merge remote-tracking branch: upstream/${upbranch}"; 
+    elif [[ $remoterepotype == svn ]] ; then
+      git pull --recurse-submodules
+      git fetch origin
+      git svn upstream fetch
+      git merge upstream -m "Merge remote-tracking branch 'upstream'"
+    fi
+    
+    git push ;
+    cd .. ; 
+  fi
+done  # End of for loop
+
+
