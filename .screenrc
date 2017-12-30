@@ -1,0 +1,51 @@
+### GNU Screen Configuration File
+#
+# This file controls the behavior of `screen`. Install to ~/.screenrc, and run
+# `mkdir -p ~/.screen/{caps,logs}`.
+#
+###
+
+### General Configuration Options
+
+# Suppress trailing blank lines when scrolling up in the history buffer.
+compacthist on
+
+# Enable logging.
+deflog on
+
+# Enable activity monitoring for windows.
+defmonitor on
+
+# Deal with dead terminals.
+defnonblock on
+
+# Save lots of scrollback.
+defscrollback 10000
+
+# Save all screen captures to ~/.screen/caps.
+hardcopydir "$HOME/.screen/caps"
+
+# Ignore case when searching.
+ignorecase on
+
+# Log to ~/.screen/logs.
+logfile "$HOME/.screen/logs/screenlog.%n"
+
+# Enable timestamps in the log file.
+logtstamp on
+
+# Set the colors for screen messages to default on blue background.
+sorendition = bd
+
+# Disable the startup splash message.
+startup_message off
+
+# Enable tabbed colored hardstatus line
+hardstatus alwayslastline
+
+# Very nice tabbed colored hardstatus line
+hardstatus string '%{= Kd} %{= Kd}%-w%{= Kr}[%{= KW}%n %t%{= Kr}]%{= Kd}%+w %-= %{KG} %H%{KW}|%{KY}%101`%{KW}|%D %M %d %Y%{= Kc} %C%A%{-}'
+
+escape ^Jj
+
+shell $SHELL
