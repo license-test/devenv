@@ -1,0 +1,17 @@
+PS1(">>> ")
+PS2("... ")
+
+setenv("GNUTERM", "x11")
+
+function retval = atan2d(y, x)
+  retval=atan2(y,x)*180/pi;
+endfunction
+
+function retval = comb(n,m)
+  retval = bincoeff(n,m);
+endfunction
+
+function retval = perm(n,m)
+  retval = bincoeff(n,m)*factorial(m);
+endfunction
+
