@@ -1,0 +1,1 @@
+../../fisherman/bass/functions/bass.fish
