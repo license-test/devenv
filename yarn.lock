@@ -1332,8 +1332,8 @@ boom@5.x.x:
     hoek "4.x.x"
 
 bootstrap@^4.0.0-beta.2:
-  version "4.0.0-beta.3"
-  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.0.0-beta.3.tgz#60f0660bc3d121176514b361f6f83201c7ff8874"
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.0.0.tgz#ceb03842c145fcc1b9b4e15da2a05656ba68469a"
 
 boxen@^0.6.0:
   version "0.6.0"
@@ -2087,14 +2087,6 @@ copy-descriptor@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
 
-copy-paste@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/copy-paste/-/copy-paste-1.3.0.tgz#a7e6c4a1c28fdedf2b081e72b97df2ef95f471ed"
-  dependencies:
-    iconv-lite "^0.4.8"
-  optionalDependencies:
-    sync-exec "~0.6.x"
-
 core-js@^1.0.0:
   version "1.2.7"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-1.2.7.tgz#652294c14651db28fa93bd2d5ff2983a4f08c636"
@@ -2153,13 +2145,13 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     sha.js "^2.4.8"
 
 create-react-app@^1.4.3:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/create-react-app/-/create-react-app-1.5.0.tgz#a37c43ff48c1beae7f8c77700057b0ba77c53b7c"
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/create-react-app/-/create-react-app-1.5.1.tgz#e3d1e757377a20b8a48202582df820436ef5430d"
   dependencies:
     chalk "^1.1.1"
     commander "^2.9.0"
     cross-spawn "^4.0.0"
-    envinfo "^3.8.0"
+    envinfo "3.4.2"
     fs-extra "^1.0.0"
     hyperquest "^2.1.2"
     semver "^5.0.3"
@@ -2814,12 +2806,10 @@ entities@^1.1.1, entities@~1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/entities/-/entities-1.1.1.tgz#6e5c2d0a5621b5dadaecef80b90edfb5cd7772f0"
 
-envinfo@^3.8.0:
-  version "3.10.0"
-  resolved "https://registry.yarnpkg.com/envinfo/-/envinfo-3.10.0.tgz#24b52a5c19af379dc32465d1909e37344dc41c20"
+envinfo@3.4.2:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/envinfo/-/envinfo-3.4.2.tgz#f06648836155b81e1d7b4a1c3fca3f6b5f38789b"
   dependencies:
-    copy-paste "^1.3.0"
-    glob "^7.1.2"
     minimist "^1.2.0"
     os-name "^2.0.1"
     which "^1.2.14"
@@ -4505,7 +4495,7 @@ hyperquest@^2.1.2:
     duplexer2 "~0.0.2"
     through2 "~0.6.3"
 
-iconv-lite@0.4.19, iconv-lite@^0.4.13, iconv-lite@^0.4.17, iconv-lite@^0.4.8, iconv-lite@~0.4.13:
+iconv-lite@0.4.19, iconv-lite@^0.4.13, iconv-lite@^0.4.17, iconv-lite@~0.4.13:
   version "0.4.19"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.19.tgz#f7468f60135f5e5dad3399c0a81be9a1603a082b"
 
@@ -7129,8 +7119,8 @@ package-json@^4.0.0:
     semver "^5.1.0"
 
 pacote@^7.0.2:
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/pacote/-/pacote-7.1.1.tgz#4f7948c8722d3666e2b0ec694f66e86be4f94f7d"
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/pacote/-/pacote-7.2.0.tgz#9c7d7bca06061299d1ddba903b1d4e42e6b162d0"
   dependencies:
     bluebird "^3.5.1"
     cacache "^10.0.2"
@@ -7150,7 +7140,7 @@ pacote@^7.0.2:
     protoduck "^5.0.0"
     safe-buffer "^5.1.1"
     semver "^5.4.1"
-    ssri "^5.0.0"
+    ssri "^5.1.0"
     tar "^4.2.0"
     unique-filename "^1.1.0"
     which "^1.3.0"
@@ -7749,16 +7739,16 @@ posthtml-parser@^0.1.3:
     htmlparser2 "^3.8.3"
 
 posthtml-parser@^0.3.0:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/posthtml-parser/-/posthtml-parser-0.3.1.tgz#c8a3cfb126313fe733fe239430e9318d538c22f8"
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/posthtml-parser/-/posthtml-parser-0.3.2.tgz#818e50a9fbf3f4f8fd0d1fb02b7c469e78c50d02"
   dependencies:
     htmlparser2 "^3.9.2"
     isobject "^2.1.0"
     object-assign "^4.1.1"
 
 posthtml-render@^1.0.5, posthtml-render@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/posthtml-render/-/posthtml-render-1.0.6.tgz#1b88b8e7860a8ebdfe2f2a1310a4642a55cf5bda"
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/posthtml-render/-/posthtml-render-1.1.0.tgz#854fcaaf3d4b9c8c1dc736fd5d80e52b709d98b7"
 
 posthtml@^0.10.1:
   version "0.10.1"
@@ -9124,7 +9114,13 @@ ssri@^4.1.2:
   dependencies:
     safe-buffer "^5.1.0"
 
-ssri@^5.0.0, ssri@~5.0.0:
+ssri@^5.0.0, ssri@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/ssri/-/ssri-5.1.0.tgz#2cbf1df36b74d0fc91fcf89640a4b3e1d10b1899"
+  dependencies:
+    safe-buffer "^5.1.0"
+
+ssri@~5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/ssri/-/ssri-5.0.0.tgz#13c19390b606c821f2a10d02b351c1729b94d8cf"
   dependencies:
@@ -9365,10 +9361,6 @@ symbol-observable@^1.0.3:
 "symbol-tree@>= 3.1.0 < 4.0.0", symbol-tree@^3.2.1:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/symbol-tree/-/symbol-tree-3.2.2.tgz#ae27db38f660a7ae2e1c3b7d1bc290819b8519e6"
-
-sync-exec@~0.6.x:
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/sync-exec/-/sync-exec-0.6.2.tgz#717d22cc53f0ce1def5594362f3a89a2ebb91105"
 
 table@^4.0.1:
   version "4.0.2"
@@ -9693,8 +9685,8 @@ truncate-utf8-bytes@^1.0.0:
     utf8-byte-length "^1.0.1"
 
 tslib@^1.8.0, tslib@^1.8.1:
-  version "1.8.1"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.8.1.tgz#6946af2d1d651a7b1863b531d6e5afa41aa44eac"
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.0.tgz#e37a86fda8cbbaf23a057f473c9f4dc64e5fc2e8"
 
 tslint@^5.8.0:
   version "5.9.1"
@@ -9740,8 +9732,8 @@ type-check@~0.3.2:
     prelude-ls "~1.1.2"
 
 type-detect@^4.0.0:
-  version "4.0.6"
-  resolved "https://registry.yarnpkg.com/type-detect/-/type-detect-4.0.6.tgz#88cbce3d13bc675a63f840b3225c180f870786d7"
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/type-detect/-/type-detect-4.0.7.tgz#862bd2cf6058ad92799ff5a5b8cf7b6cec726198"
 
 type-is@~1.6.15:
   version "1.6.15"
