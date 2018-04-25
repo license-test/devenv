@@ -91,8 +91,8 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-9.6.6.tgz#439b91f9caf3983cad2eef1e11f6bedcbf9431d2"
 
 "@types/node@^8.0.24":
-  version "8.10.9"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.10.9.tgz#b507a74a7d3eddc74a17dc35fd40d8f45dde0d6c"
+  version "8.10.10"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.10.10.tgz#fec07bc2ad549d9e6d2f7aa0fb0be3491b83163a"
 
 "@types/rimraf@^0.0.28":
   version "0.0.28"
@@ -4496,8 +4496,8 @@ http-link-header@^0.8.0:
   resolved "https://registry.yarnpkg.com/http-link-header/-/http-link-header-0.8.0.tgz#a22b41a0c9b1e2d8fac1bf1b697c6bd532d5f5e4"
 
 http-parser-js@>=0.4.0:
-  version "0.4.11"
-  resolved "https://registry.yarnpkg.com/http-parser-js/-/http-parser-js-0.4.11.tgz#5b720849c650903c27e521633d94696ee95f3529"
+  version "0.4.12"
+  resolved "https://registry.yarnpkg.com/http-parser-js/-/http-parser-js-0.4.12.tgz#b9cfbf4a2cf26f0fc34b10ca1489a27771e3474f"
 
 http-proxy-agent@^1.0.0:
   version "1.0.0"
@@ -5831,8 +5831,8 @@ lockfile@^1.0.1, lockfile@~1.0.3:
     signal-exit "^3.0.2"
 
 lodash-es@^4.2.1:
-  version "4.17.8"
-  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.8.tgz#6fa8c8c5d337481df0bdf1c0d899d42473121e45"
+  version "4.17.10"
+  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.10.tgz#62cd7104cdf5dd87f235a837f0ede0e8e5117e05"
 
 lodash._basecopy@^3.0.0:
   version "3.0.1"
@@ -6008,8 +6008,8 @@ lodash.without@~4.4.0:
   resolved "https://registry.yarnpkg.com/lodash.without/-/lodash.without-4.4.0.tgz#3cd4574a00b67bae373a94b748772640507b7aac"
 
 "lodash@>=3.5 <5", lodash@^4.14.0, lodash@^4.15.0, lodash@^4.17.2, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0:
-  version "4.17.5"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.5.tgz#99a92d65c0272debe8c96b6057bc8fbfa3bed511"
+  version "4.17.10"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
 
 lodash@^3.10.1:
   version "3.10.1"
@@ -6164,8 +6164,8 @@ md5@^2.2.1:
     is-buffer "~1.1.1"
 
 mdn-data@^1.0.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-1.1.1.tgz#79586c90321787e5a2e51eb6823bb448949bc1ab"
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-1.1.2.tgz#ceaa6a831b4de494352af984d301e3a8f2cad6e5"
 
 meant@~1.0.1:
   version "1.0.1"
@@ -8179,8 +8179,8 @@ range-parser@^1.0.3, range-parser@~1.2.0:
   resolved "https://registry.yarnpkg.com/range-parser/-/range-parser-1.2.0.tgz#f49be6b487894ddc40dcc94a322f611092e00d5e"
 
 raven@^2.2.1:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/raven/-/raven-2.5.0.tgz#7a2b4ce8b9ff884448924ad19ca33b574bce59a2"
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/raven/-/raven-2.6.0.tgz#3806a82c9ee8cd3e75c3b7ea7bb1935aad092d0c"
   dependencies:
     cookie "0.3.1"
     md5 "^2.2.1"
