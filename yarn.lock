@@ -6904,13 +6904,12 @@ node-forge@0.7.5, node-forge@^0.7.1:
   resolved "https://registry.yarnpkg.com/node-forge/-/node-forge-0.7.5.tgz#6c152c345ce11c52f465c2abd957e8639cd674df"
 
 node-gyp@^3.6.2:
-  version "3.6.3"
-  resolved "https://registry.yarnpkg.com/node-gyp/-/node-gyp-3.6.3.tgz#369fcb09146ae2167f25d8d23d8b49cc1a110d8d"
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/node-gyp/-/node-gyp-3.7.0.tgz#789478e8f6c45e277aa014f3e28f958f286f9203"
   dependencies:
     fstream "^1.0.0"
     glob "^7.0.3"
     graceful-fs "^4.1.2"
-    minimatch "^3.0.2"
     mkdirp "^0.5.0"
     nopt "2 || 3"
     npmlog "0 || 1 || 2 || 3 || 4"
@@ -10690,8 +10689,8 @@ walker@~1.0.5:
     makeerror "1.0.x"
 
 wappalyzer@^5.1.3:
-  version "5.4.16"
-  resolved "https://registry.yarnpkg.com/wappalyzer/-/wappalyzer-5.4.16.tgz#7c7edd1f200269ea20d37132cd54fa453841edb2"
+  version "5.4.18"
+  resolved "https://registry.yarnpkg.com/wappalyzer/-/wappalyzer-5.4.18.tgz#c707a21f923ca83b0e2ed254665c0fed7a031de8"
   dependencies:
     npm "^6.1.0"
     request "^2.85.0"
@@ -10951,8 +10950,8 @@ whatwg-url@^4.3.0:
     webidl-conversions "^3.0.0"
 
 whatwg-url@^6.3.0:
-  version "6.4.1"
-  resolved "https://registry.yarnpkg.com/whatwg-url/-/whatwg-url-6.4.1.tgz#fdb94b440fd4ad836202c16e9737d511f012fd67"
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/whatwg-url/-/whatwg-url-6.5.0.tgz#f2df02bff176fd65070df74ad5ccbb5a199965a8"
   dependencies:
     lodash.sortby "^4.7.0"
     tr46 "^1.0.1"
