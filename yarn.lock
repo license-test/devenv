@@ -1914,8 +1914,8 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-db@^1.0.30000529, caniuse-db@^1.0.30000634, caniuse-db@^1.0.30000639:
-  version "1.0.30000867"
-  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000867.tgz#b55a6ecfac3107988940c9c7dfe1866315312c97"
+  version "1.0.30000869"
+  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000869.tgz#c3da59fa8d9456df88a24bb292ede0e3798798cb"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000748, caniuse-lite@^1.0.30000792, caniuse-lite@^1.0.30000844, caniuse-lite@^1.0.30000865:
   version "1.0.30000865"
@@ -2762,8 +2762,8 @@ cssnano-util-same-parent@^4.0.0:
     postcss-zindex "^2.0.1"
 
 cssnano@^4.0.0:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/cssnano/-/cssnano-4.0.2.tgz#0e79a1829afb6583744ba705fd62516fbfd4fda7"
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/cssnano/-/cssnano-4.0.3.tgz#b694d626906bf1844f573465ecc166b2240b8699"
   dependencies:
     cosmiconfig "^5.0.0"
     cssnano-preset-default "^4.0.0"
@@ -8380,8 +8380,8 @@ postcss-merge-longhand@^2.0.1:
     postcss "^5.0.4"
 
 postcss-merge-longhand@^4.0.0:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/postcss-merge-longhand/-/postcss-merge-longhand-4.0.1.tgz#98cdebda7cc1bada4ae03c76ed1c44c97a574019"
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/postcss-merge-longhand/-/postcss-merge-longhand-4.0.2.tgz#a2bcd7b0f9dca41ee84ba0cee23a5e6cb465ec3a"
   dependencies:
     postcss "^6.0.0"
     postcss-value-parser "^3.0.0"
