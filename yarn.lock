@@ -4326,8 +4326,8 @@ fstream@^1.0.0, fstream@^1.0.10, fstream@^1.0.2:
     rimraf "2"
 
 fswatcher-child@^1.0.3:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/fswatcher-child/-/fswatcher-child-1.0.5.tgz#134d012ffa74918975617e00e56e4139f36cb140"
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/fswatcher-child/-/fswatcher-child-1.1.0.tgz#af1650590f897532431731247fd6270f333912ff"
   dependencies:
     chokidar "^2.0.3"
 
@@ -7336,8 +7336,8 @@ npm-registry-fetch@^1.1.0:
     safe-buffer "^5.1.1"
 
 npm-registry-fetch@^3.0.0:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/npm-registry-fetch/-/npm-registry-fetch-3.2.1.tgz#e25f306dbe7f0a1e388f04a51086f09f3dec57af"
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/npm-registry-fetch/-/npm-registry-fetch-3.3.0.tgz#1310e71cfb439cb4a8f597ab886e40c080fb2a2d"
   dependencies:
     bluebird "^3.5.1"
     figgy-pudding "^3.2.0"
@@ -11343,8 +11343,8 @@ webpack@3.8.1:
     yargs "^8.0.2"
 
 webpack@^4.6.0:
-  version "4.17.0"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.17.0.tgz#7e8df9529dd5fca65c700b3341a001aeae27c749"
+  version "4.17.1"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.17.1.tgz#0f026e3d823f3fc604f811ed3ea8f0d9b267fb1e"
   dependencies:
     "@webassemblyjs/ast" "1.5.13"
     "@webassemblyjs/helper-module-context" "1.5.13"
