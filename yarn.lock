@@ -2786,14 +2786,14 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-db@^1.0.30000529, caniuse-db@^1.0.30000634, caniuse-db@^1.0.30000639:
-  version "1.0.30000899"
-  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000899.tgz#f66d667d507c2aa19603a4a3763d71aa89cc360f"
-  integrity sha512-MSCUohyoLU4/PGapapw/PLQkmQ+sFgzX6e3tM6ue8HX9HW9rBD5gRiAYKhC8r0QkvUE0pWTA8Ze6f3jrzBizVg==
+  version "1.0.30000900"
+  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000900.tgz#e123ad2cef981f234afd5572507e0c4ff2b439b0"
+  integrity sha512-fvicVRDlhHIQpt/bmbLl3hDHKUZb5ZP8O2OuZLz2fSEPlUBbvwwbhhqhGS617ldN6bDoo9A3+MQKQyFq0p7UXA==
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000748, caniuse-lite@^1.0.30000792, caniuse-lite@^1.0.30000899:
-  version "1.0.30000899"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000899.tgz#6febdbbc388a7982f620ee0e3d09aab0c061389e"
-  integrity sha512-enC3zKfUCJxxwvUIsBkbHd54CtJw1KtIWvrK0JZxWD/fEN2knHaai45lndJ4xXAkyRAPyk60J3yagkKDWhfeMA==
+  version "1.0.30000900"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000900.tgz#015cfe37897a3386a3075a914498800c29afe77e"
+  integrity sha512-xDVs8pBFr6bzq9pXUkLKpGQQnzsF/l6/yX38UnCkTcUcwC0rDl1NGZGildcJVTU+uGBxfsyniK/ZWagPNn1Oqw==
 
 capture-stack-trace@^1.0.0:
   version "1.0.1"
@@ -8371,9 +8371,9 @@ map-visit@^1.0.0:
     object-visit "^1.0.0"
 
 marky@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/marky/-/marky-1.2.0.tgz#9617ed647bbbea8f45d19526da33dec70606df42"
-  integrity sha1-lhftZHu76o9F0ZUm2jPexwYG30I=
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/marky/-/marky-1.2.1.tgz#a3fcf82ffd357756b8b8affec9fdbf3a30dc1b02"
+  integrity sha512-md9k+Gxa3qLH6sUKpeC2CNkJK/Ld+bEz5X96nYwloqphQE0CKCVEKco/6jxEZixinqNdz5RFi/KaCyfbMDMAXQ==
 
 math-expression-evaluator@^1.2.14:
   version "1.2.17"
@@ -12836,9 +12836,9 @@ term-size@^1.2.0:
     execa "^0.7.0"
 
 terser@^3.7.3, terser@^3.8.1:
-  version "3.10.3"
-  resolved "https://registry.yarnpkg.com/terser/-/terser-3.10.3.tgz#4085f9e62171ca746c5759fe955d921291703ee6"
-  integrity sha512-uyL5hwDICjnv49JANhZvQYLikt/HADWNbUFsKQpZ/i+JSOkL2T4V7WUpW7S/5QGZceVq2x0HRVhEQQuW2ZpX6g==
+  version "3.10.4"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-3.10.4.tgz#63ed0b5266d39cbdcb9c2bf6506f6444b70184a3"
+  integrity sha512-Gobjr6j9ZbA0oAFW+foiqp8LUZjBkd5UHxCVL0cPOlHO7wKKa3FwHW/j9p7d1/ypPl6m9Bf0LAFbbHf3k97asA==
   dependencies:
     commander "~2.17.1"
     source-map "~0.6.1"
