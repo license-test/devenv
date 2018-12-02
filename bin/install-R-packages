@@ -23,38 +23,7 @@
 pkgLoad <- function( packages = "favorites" ) {
 
     if( length( packages ) == 1L && packages == "favorites" ) {
-        packages <- c( 
-            "arules",
-            "caTools",
-            "chron",
-            "class",
-            "data.table",
-            "devtools",
-            "doMC",
-            "dplyr",
-            "e1071",
-            "ElemStatLearn",
-            "DT",
-            "feather",
-            "ggplot2",
-            "googlesheets",
-            "knitr",
-            "microbenchmark",
-            "parallel",
-            "plyr",
-            "randomForest",
-            "Rcpp",
-            "readr",
-            "readxl",
-            "rmarkdown",
-            "rpart",
-            "shiny",
-            "shinyjs",
-            "SnowballC",
-            "stats",
-            "tm",
-            "utils"
-            )
+        packages = readLines('../etc/R-packages.cfg')
     }
 
     packagecheck <- match( packages, utils::installed.packages()[,1] )
