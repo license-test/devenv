@@ -50,7 +50,9 @@ pkgLoad <- function( packages = "favorites" ) {
             "rpart",
             "shiny",
             "shinyjs",
+            "SnowballC",
             "stats",
+            "tm",
             "utils"
             )
     }
