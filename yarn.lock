@@ -1101,9 +1101,9 @@ ansi-align@^2.0.0:
     string-width "^2.0.0"
 
 ansi-colors@^3.0.0:
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/ansi-colors/-/ansi-colors-3.2.2.tgz#e49349137dbeb6d381b91e607c189915e53265ba"
-  integrity sha512-kJmcp4PrviBBEx95fC3dYRiC/QSN3EBd0GU1XoNEk/IuUa92rsB6o90zP3w5VAyNznR38Vkc9i8vk5zK6T7TxA==
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/ansi-colors/-/ansi-colors-3.2.3.tgz#57d35b8686e851e2cc04c403f1c00203976a1813"
+  integrity sha512-LEHHyuhlPY3TmuUYMh2oz89lTShfvgbmzaBcxve9t/9Wuy7Dwf4yoAKcND7KFT1HAQfqZ12qtc+DUrBMeKF9nw==
 
 ansi-escapes@^1.0.0, ansi-escapes@^1.4.0:
   version "1.4.0"
@@ -8669,9 +8669,9 @@ minipass@^2.2.1, minipass@^2.3.3, minipass@^2.3.4:
     yallist "^3.0.0"
 
 minizlib@^1.1.1:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/minizlib/-/minizlib-1.2.0.tgz#59517387478fd98d8017ed0299c6cb16cbd12da3"
-  integrity sha512-vQhkoouK/oKRVuFJynustmW3wrqZEXOrfbVVirvOVeglH4TNvIkcqiyojlIbbZYYDJZSbEKEXmDudg+tyRkm6g==
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/minizlib/-/minizlib-1.2.1.tgz#dd27ea6136243c7c880684e8672bb3a45fd9b614"
+  integrity sha512-7+4oTUOWKg7AuL3vloEWekXY2/D20cevzsrNT2kGWm+39J9hGTCBv8VI5Pm5lXZ/o3/mdR4f8rflAPhnQb8mPA==
   dependencies:
     minipass "^2.2.1"
 
@@ -13690,9 +13690,9 @@ walker@~1.0.5:
     makeerror "1.0.x"
 
 wappalyzer@^5.1.3:
-  version "5.5.6"
-  resolved "https://registry.yarnpkg.com/wappalyzer/-/wappalyzer-5.5.6.tgz#dfa955655f8ace4f2e52ce0539071dbbf60e5932"
-  integrity sha512-DddGquGyqvWPMHEFsIOdEvKDeo6FMHKDWDVg0Z/5qktUmG2g7pjfjcfamHGirXIiVJLMNHMDxQHU2A319t6Obg==
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/wappalyzer/-/wappalyzer-5.6.0.tgz#a895281ffacd446096348884a8deecafcc08387d"
+  integrity sha512-S2/Ljg9ENUocmpOpKajf8+to9sQwMThyOVRV4LQzeiA1DR+8xEImVB2zRV9aYSEqv8SuqspPykKEn0Yzl0xwSw==
   dependencies:
     zombie "^6.1.2"
 
