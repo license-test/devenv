@@ -11385,9 +11385,9 @@ readable-stream@1.0, "readable-stream@>=1.0.33-1 <1.1.0-0":
     string_decoder "~0.10.x"
 
 readable-stream@^3.0.6:
-  version "3.0.6"
-  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-3.0.6.tgz#351302e4c68b5abd6a2ed55376a7f9a25be3057a"
-  integrity sha512-9E1oLoOWfhSXHGv6QlwXJim7uNzd9EVlWK+21tCU9Ju/kR0/p2AZYPz4qSchgO8PlLIH4FpZYfzwS+rEksZjIg==
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-3.1.0.tgz#19c2e9c1ce43507c53f6eefbcf1ee3d4aaa786f5"
+  integrity sha512-vpydAvIJvPODZNagCPuHG87O9JNPtvFEtjHHRVwNVsVVRBqemvPJkc2SYbxJsiZXawJdtZNmkmnsPuE3IgsG0A==
   dependencies:
     inherits "^2.0.3"
     string_decoder "^1.1.1"
@@ -13697,9 +13697,9 @@ walker@~1.0.5:
     makeerror "1.0.x"
 
 wappalyzer@^5.1.3:
-  version "5.6.1"
-  resolved "https://registry.yarnpkg.com/wappalyzer/-/wappalyzer-5.6.1.tgz#0d3d9c954078a7365e37792079432a3def3c999e"
-  integrity sha512-eS+y5au7Pn7AVMkMzQDMPGoYbCZ9ON1jtuBjlTfHxj2vDExe8XQkqsOHjOzPie3y3vTyixyeEc9Jjr86UMFhKw==
+  version "5.6.3"
+  resolved "https://registry.yarnpkg.com/wappalyzer/-/wappalyzer-5.6.3.tgz#8ece662c6124ef625d15305d8ad85f527668b8bf"
+  integrity sha512-1+sun/lovQnewjwUNFqEXIazYmr+nlXo9rA/su7cIWh9u6f1Nt/JCRuw/Pk/OqEADFHUv3YlZCBYpxAyhLwfHw==
   dependencies:
     zombie "^6.1.2"
 
