@@ -1,7 +1,7 @@
 devenv
 =================
 
-Files used to setup development environment: vimrc, bashrc, screenrc, gitconfig, wgetrc, octaverc etc.
+Files used to setup development environment: vimrc, bashrc, screenrc, gitconfig, wgetrc, octaverc, etc.
 
 Miscellaneous scripts:
 
