@@ -2934,14 +2934,14 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-db@^1.0.30000529, caniuse-db@^1.0.30000634, caniuse-db@^1.0.30000639:
-  version "1.0.30000975"
-  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000975.tgz#c8910e6b9343c4e771e9901f4b768dae7cc40b12"
-  integrity sha512-4Ht47eUW0uaOhuCs7bc7BhWqhP7ix3QCxcY7VLRLmw81AOz8S9A6pjTajxTDakQc+T/zTnUdy4iSmt5brSNxxw==
+  version "1.0.30000976"
+  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000976.tgz#33c6bc12934b003baaa9c1fa9de399122d26e2f9"
+  integrity sha512-QvzPHBh2cYmilQAiiamun3ooHRGKFKtVwLzzx0RG7avjpj7Gii89Yzs92EKeHNqbAA2rlcFXg4GzP/tC68OGuw==
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000748, caniuse-lite@^1.0.30000792, caniuse-lite@^1.0.30000975:
-  version "1.0.30000975"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000975.tgz#d4e7131391dddcf2838999d3ce75065f65f1cdfc"
-  integrity sha512-ZsXA9YWQX6ATu5MNg+Vx/cMQ+hM6vBBSqDeJs8ruk9z0ky4yIHML15MoxcFt088ST2uyjgqyUGRJButkptWf0w==
+  version "1.0.30000976"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000976.tgz#d30fe12662cb2a21e130d307db9907513ca830a2"
+  integrity sha512-tleNB1IwPRqZiod6nUNum63xQCMN96BUO2JTeiwuRM7p9d616EHsMBjBWJMudX39qCaPuWY8KEWzMZq7A9XQMQ==
 
 capture-stack-trace@^1.0.0:
   version "1.0.1"
@@ -11338,9 +11338,9 @@ query-string@^4.1.0:
     strict-uri-encode "^1.0.0"
 
 query-string@^6.2.0:
-  version "6.7.0"
-  resolved "https://registry.yarnpkg.com/query-string/-/query-string-6.7.0.tgz#7e92bf8525140cf8c5ebf500f26716b0de5b7023"
-  integrity sha512-oQ01H1jrgDRbPq5SjtJF470S418GOrKkds+fpvAt6DQatHXl7bmkaJulHbTIM+QNGtoPpa8f5k9W3Zk50zXRPQ==
+  version "6.8.0"
+  resolved "https://registry.yarnpkg.com/query-string/-/query-string-6.8.0.tgz#08be5c20ea6657150bacaa6bd9829cfa8e546dc2"
+  integrity sha512-CVpZPN0xDUfmoT7qlDbbx/2jNjk43LW3Ayjy7E2BjOQNlL8L/hqhihUpv/XPu/w3H/LBjlZ7OXP8x/QEnuxTtA==
   dependencies:
     decode-uri-component "^0.2.0"
     split-on-first "^1.0.0"
