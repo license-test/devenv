@@ -2939,14 +2939,14 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-db@^1.0.30000529, caniuse-db@^1.0.30000634, caniuse-db@^1.0.30000639:
-  version "1.0.30000983"
-  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000983.tgz#9bf82a9ea8ec5ffd802aa5214ee46eee7ed417b0"
-  integrity sha512-LS3aD+ti+fezwo8oN01l5vfZF9/CIN/4pxV5SeakHo5leudiHjE66rVHl+XqoCGw4GpO2u5ab6LOpftTfCN9cw==
+  version "1.0.30000984"
+  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000984.tgz#3e4a53d78f33403e931ef1d2b2db07556d253dff"
+  integrity sha512-1tismk25It1v7bWgRHkHxITa7ySDXVQCwb49iKbn/HeDBTEKOgEqKkJT2Xv5rJSneDqdQRqFvYrzvw5WulLjfQ==
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000748, caniuse-lite@^1.0.30000792, caniuse-lite@^1.0.30000981:
-  version "1.0.30000983"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000983.tgz#ab3c70061ca2a3467182a10ac75109b199b647f8"
-  integrity sha512-/llD1bZ6qwNkt41AsvjsmwNOoA4ZB+8iqmf5LVyeSXuBODT/hAMFNVOh84NdUzoiYiSKqo5vQ3ZzeYHSi/olDQ==
+  version "1.0.30000984"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000984.tgz#dc96c3c469e9bcfc6ad5bdd24c77ec918ea76fe0"
+  integrity sha512-n5tKOjMaZ1fksIpQbjERuqCyfgec/m9pferkFQbLmWtqLUdmt12hNhjSwsmPdqeiG2NkITOQhr1VYIwWSAceiA==
 
 capture-stack-trace@^1.0.0:
   version "1.0.1"
@@ -4529,9 +4529,9 @@ electron-download@^3.0.1:
     sumchecker "^1.2.0"
 
 electron-to-chromium@^1.2.7, electron-to-chromium@^1.3.188, electron-to-chromium@^1.3.30:
-  version "1.3.190"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.190.tgz#5bf599519983bfffd9d4387817039a3ed7ca085f"
-  integrity sha512-cs9WnTnGBGnYYVFMCtLmr9jXNTOkdp95RLz5VhwzDn7dErg1Lnt9o4d01gEH69XlmRKWUr91Yu1hA+Hi8qW0PA==
+  version "1.3.191"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.191.tgz#c451b422cd8b2eab84dedabab5abcae1eaefb6f0"
+  integrity sha512-jasjtY5RUy/TOyiUYM2fb4BDaPZfm6CXRFeJDMfFsXYADGxUN49RBqtgB7EL2RmJXeIRUk9lM1U6A5yk2YJMPQ==
 
 electron@^2.0.0:
   version "2.0.18"
@@ -10066,9 +10066,9 @@ package-json@^4.0.0:
     semver "^5.1.0"
 
 pacote@^9.1.0, pacote@^9.2.3, pacote@^9.5.1:
-  version "9.5.1"
-  resolved "https://registry.yarnpkg.com/pacote/-/pacote-9.5.1.tgz#adb0d23daeef6d0b813ab5891d0c6459ccec998d"
-  integrity sha512-Zqvczvf/zZ7QNosdE9uTC7SRuvSs9tFqRkF6cJl+2HH7COBnx4BRAGpeXJlrbN+mM0CMHpbi620xdEHhCflghA==
+  version "9.5.2"
+  resolved "https://registry.yarnpkg.com/pacote/-/pacote-9.5.2.tgz#6132afe7a53bb6fa189df72572c87bb03ab2cc5f"
+  integrity sha512-KVxalD57jaHnWIBQKPeU/eFU4UoMqUOj3h5AXvVMp9oJd8BZvIdTm8qmazy4jpYBf7RX9xCFmeFcU3ebvrUSZQ==
   dependencies:
     bluebird "^3.5.3"
     cacache "^11.3.2"
@@ -10507,9 +10507,9 @@ popsicle@^9.0.0:
     tough-cookie "^2.0.0"
 
 portfinder@^1.0.20, portfinder@^1.0.9:
-  version "1.0.20"
-  resolved "https://registry.yarnpkg.com/portfinder/-/portfinder-1.0.20.tgz#bea68632e54b2e13ab7b0c4775e9b41bf270e44a"
-  integrity sha512-Yxe4mTyDzTd59PZJY4ojZR8F+E5e97iq2ZOHPz3HDgSvYC5siNad2tLooQ5y5QHyQhc3xVqvyk/eNA3wuoa7Sw==
+  version "1.0.21"
+  resolved "https://registry.yarnpkg.com/portfinder/-/portfinder-1.0.21.tgz#60e1397b95ac170749db70034ece306b9a27e324"
+  integrity sha512-ESabpDCzmBS3ekHbmpAIiESq3udRsCBGiBZLsC+HgBKv2ezb0R4oG+7RnYEVZ/ZCfhel5Tx3UzdNWA0Lox2QCA==
   dependencies:
     async "^1.5.2"
     debug "^2.2.0"
