@@ -4553,9 +4553,9 @@ electron-download@^3.0.1:
     sumchecker "^1.2.0"
 
 electron-to-chromium@^1.2.7, electron-to-chromium@^1.3.191, electron-to-chromium@^1.3.30:
-  version "1.3.229"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.229.tgz#accc9a08dd07d0a4d6c76937821bc94eb2e49eae"
-  integrity sha512-N6pUbSuKFBeUifxBZp9hODS1N9jFobJYW47QT2VvZIr+G5AWnHK/iG3ON9RPRGH7lHDQ6KUDVhzpNkj4ZiznoA==
+  version "1.3.230"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.230.tgz#2d0618cb6f724391d5fd0926dde84d6c67cbcda9"
+  integrity sha512-r0RljY5DZi9RX4v8mjHxJkDWnQe+nsrkGlHtrDF2uvZcvAkw+iglvlQi1794gZhwRtJoDOomMJlDHL2LfXSCZA==
 
 electron@^2.0.0:
   version "2.0.18"
@@ -5898,9 +5898,9 @@ genfun@^5.0.0:
   integrity sha512-KGDOARWVga7+rnB3z9Sd2Letx515owfk0hSxHGuqjANb1M+x2bGZGqHLiozPsYMdM2OubeMni/Hpwmjq6qIUhA==
 
 gentle-fs@^2.0.1:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/gentle-fs/-/gentle-fs-2.2.0.tgz#3919b0aec5385aec8e03666e3d2433f761861891"
-  integrity sha512-sF2wX399zmMbjUhk6HRidiSJOeZ9p4RpZ61Nf7srrtRrl3rMC1gIs16UDKadfMne8gbsBYhuXwRwUyKS6kXH5g==
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/gentle-fs/-/gentle-fs-2.2.1.tgz#1f38df4b4ead685566257201fd526de401ebb215"
+  integrity sha512-e7dRgUM5fsS+7wm2oggZpgcRx6sEvJHXujPH5RzgQ1ziQY4+HuVBYsnUzJwJ+C7mjOJN27DjiFy1TaL+TNltow==
   dependencies:
     aproba "^1.1.2"
     chownr "^1.1.2"
@@ -10123,12 +10123,13 @@ package-json@^4.0.0:
     semver "^5.1.0"
 
 pacote@^9.1.0, pacote@^9.5.3, pacote@^9.5.4:
-  version "9.5.5"
-  resolved "https://registry.yarnpkg.com/pacote/-/pacote-9.5.5.tgz#63355a393614c3424e735820c3731e2cbbedaeeb"
-  integrity sha512-jAEP+Nqj4kyMWyNpfTU/Whx1jA7jEc5cCOlurm0/0oL+v8TAp1QSsK83N7bYe+2bEdFzMAtPG5TBebjzzGV0cA==
+  version "9.5.6"
+  resolved "https://registry.yarnpkg.com/pacote/-/pacote-9.5.6.tgz#1f749e25d82921941cf02e58e3312053940e5ea0"
+  integrity sha512-WyfTZU04KGx9h+ZD37vSmCK0KZMAPp2XTVhWdue7/1bAxBYM3YtyBGz1CNgiOvl3u5TYRT8RG4duhyXxQvaIxw==
   dependencies:
     bluebird "^3.5.3"
     cacache "^12.0.2"
+    chownr "^1.1.2"
     figgy-pudding "^3.5.1"
     get-stream "^4.1.0"
     glob "^7.1.3"
@@ -10152,7 +10153,7 @@ pacote@^9.1.0, pacote@^9.5.3, pacote@^9.5.4:
     safe-buffer "^5.1.2"
     semver "^5.6.0"
     ssri "^6.0.1"
-    tar "^4.4.8"
+    tar "^4.4.10"
     unique-filename "^1.1.1"
     which "^1.3.1"
 
