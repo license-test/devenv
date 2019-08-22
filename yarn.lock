@@ -1143,9 +1143,9 @@ address@1.0.3:
   integrity sha512-z55ocwKBRLryBs394Sm3ushTtBeg6VAeuku7utSoSnsJKvKcnXFIyC6vh27n3rXyxSgkJBBCAvyOn7gSUcTYjg==
 
 address@^1.0.1:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/address/-/address-1.1.0.tgz#ef8e047847fcd2c5b6f50c16965f924fd99fe709"
-  integrity sha512-4diPfzWbLEIElVG4AnqP+00SULlPzNuyJFNnmMrLgyaxG6tZXJ1sn7mjBu4fHrJE+Yp/jgylOweJn2xsLMFggQ==
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/address/-/address-1.1.1.tgz#9483d6464788dee73e9a0f9f5d57bedf429b2a70"
+  integrity sha512-srclZEseI6OB0MgWYWuYpr2F5fHMxh5lgWF72CeUFm5QgJyviPA64Q7PzJdBQkFCJibEycqsZ5b9L0l/J8SlyQ==
 
 agent-base@2:
   version "2.1.1"
@@ -3055,9 +3055,9 @@ chokidar@^1.6.1:
     fsevents "^1.0.0"
 
 chokidar@^2.0.0, chokidar@^2.0.2, chokidar@^2.0.3, chokidar@^2.1.6:
-  version "2.1.6"
-  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-2.1.6.tgz#b6cad653a929e244ce8a834244164d241fa954c5"
-  integrity sha512-V2jUo67OKkc6ySiRpJrjlpJKl9kDuG+Xb8VgsGzb+aEouhgS1D0weyPU4lEzdAcsCAvrih2J2BqyXqHWvVLw5g==
+  version "2.1.8"
+  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-2.1.8.tgz#804b3a7b6a99358c3c5c61e71d8728f041cff917"
+  integrity sha512-ZmZUazfOzf0Nve7duiCKD23PFSCs4JPoYyccjUFF3aQkQadqBhfzhjkwBH2mNOG9cTBwhamM37EIsIkZw3nRgg==
   dependencies:
     anymatch "^2.0.0"
     async-each "^1.0.1"
@@ -3268,9 +3268,9 @@ clones@^1.2.0:
   integrity sha512-FXDYw4TjR8wgPZYui2LeTqWh1BLpfQ8lB6upMtlpDF6WlOOxghmTTxWyngdKTgozqBgKnHbTVwTE+hOHqAykuQ==
 
 cmd-shim@^3.0.0, cmd-shim@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/cmd-shim/-/cmd-shim-3.0.2.tgz#159a20602ac4295ec0997243a40ac9b2df54f5e3"
-  integrity sha512-x/2sXAaA1lUgUCZ9zaeOGzSkXOoN2DFxY61kgfhnIIUe/2QK8DFDnezT2drSZa/u8SKQT3vRFwTFPMMgQmH8kg==
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/cmd-shim/-/cmd-shim-3.0.3.tgz#2c35238d3df37d98ecdd7d5f6b8dc6b21cadc7cb"
+  integrity sha512-DtGg+0xiFhQIntSBRzL2fRQBnmtAVwXIDo4Qq46HPpObYquxMaZS4sb82U9nH91qJrlosC1wa9gwr0QyL/HypA==
   dependencies:
     graceful-fs "^4.1.2"
     mkdirp "~0.5.0"
@@ -6442,7 +6442,7 @@ homedir-polyfill@^1.0.1:
   dependencies:
     parse-passwd "^1.0.0"
 
-hosted-git-info@^2.1.4, hosted-git-info@^2.6.0, hosted-git-info@^2.8.2:
+hosted-git-info@^2.1.4, hosted-git-info@^2.7.1, hosted-git-info@^2.8.2:
   version "2.8.4"
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.4.tgz#44119abaf4bc64692a16ace34700fed9c03e2546"
   integrity sha512-pzXIvANXEFrc5oFFXRMkbLPQ2rXRoDERwDLyrcUxGhaZhgP54BBSl9Oheh7Vv0T090cszWBxPjkQQ5Sq1PbBRQ==
@@ -9354,9 +9354,9 @@ node-pre-gyp@^0.12.0:
     tar "^4"
 
 node-releases@^1.1.25:
-  version "1.1.27"
-  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.27.tgz#b19ec8add2afe9a826a99dceccc516104c1edaf4"
-  integrity sha512-9iXUqHKSGo6ph/tdXVbHFbhRVQln4ZDTIBJCzsa90HimnBYc5jw8RWYt4wBYFHehGyC3koIz5O4mb2fHrbPOuA==
+  version "1.1.28"
+  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.28.tgz#503c3c70d0e4732b84e7aaa2925fbdde10482d4a"
+  integrity sha512-AQw4emh6iSXnCpDiFe0phYcThiccmkNWMZnFZ+lDJjAP8J0m2fVd59duvUUyuTirQOhIAajTFkzG6FHCLBO59g==
   dependencies:
     semver "^5.3.0"
 
@@ -9474,13 +9474,13 @@ npm-logical-tree@^1.2.1:
   integrity sha512-AJI/qxDB2PWI4LG1CYN579AY1vCiNyWfkiquCsJWqntRu/WwimVrC8yXeILBFHDwxfOejxewlmnvW9XXjMlYIg==
 
 "npm-package-arg@^4.0.0 || ^5.0.0 || ^6.0.0", npm-package-arg@^6.0.0, npm-package-arg@^6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/npm-package-arg/-/npm-package-arg-6.1.0.tgz#15ae1e2758a5027efb4c250554b85a737db7fcc1"
-  integrity sha512-zYbhP2k9DbJhA0Z3HKUePUgdB1x7MfIfKssC+WLPFMKTBZKpZh5m13PgexJjCq6KW7j17r0jHWcCpxEqnnncSA==
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/npm-package-arg/-/npm-package-arg-6.1.1.tgz#02168cb0a49a2b75bf988a28698de7b529df5cb7"
+  integrity sha512-qBpssaL3IOZWi5vEKUKW0cO7kzLeT+EQO9W8RsLOZf76KF9E/K9+wH0C7t06HXPpaH8WH5xF1MExLuCwbTqRUg==
   dependencies:
-    hosted-git-info "^2.6.0"
+    hosted-git-info "^2.7.1"
     osenv "^0.1.5"
-    semver "^5.5.0"
+    semver "^5.6.0"
     validate-npm-package-name "^3.0.0"
 
 npm-packlist@^1.1.12, npm-packlist@^1.1.6, npm-packlist@^1.4.4:
