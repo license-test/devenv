@@ -15,7 +15,7 @@ Miscellaneous configuration files:
 .gitconfig: git 
 .octaverc: GNU Octave 
 .pyrc: Python
-.screenrc: Configuration file for the screen command.
+.screenrc: Configuration file for the screen command.fdafds
 .vimrc, .vim folder: vim  files
 .wgetrc: wgetfdsfsdfsdffdafda
 fdsfs
