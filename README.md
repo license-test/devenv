@@ -17,5 +17,5 @@ Miscellaneous configuration files:
 .pyrc: Python
 .screenrc: Configuration file for the screen command.
 .vimrc, .vim folder: vim  files
-.wgetrc: wgetfdsfsdfsdf
+.wgetrc: wgetfdsfsdfsdffdafda
 fdsfs
