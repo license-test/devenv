@@ -14,7 +14,7 @@ Miscellaneous configuration files:
 .git-completion.bash: Git auto-completion script
 .gitconfig: git 
 .octaverc: GNU Octave 
-.pyrc: Python
+.pyrc: Pythondasdsa
 .screenrc: Configuration file for the screen command.fdafdsfdafda
 .vimrc, .vim folder: vim  files
 .wgetrc: wgetfdsfsdfsdffdafda
