@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Flicense-test%2Fdevenv.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Flicense-test%2Fdevenv?ref=badge_shield)
+
 devenv
 =================
 
@@ -19,3 +21,7 @@ Miscellaneous configuration files:
 .vimrc, .vim folder: vim  files
 .wgetrc: wgetfdsfsdfsdffdafda
 fdsfs
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Flicense-test%2Fdevenv.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Flicense-test%2Fdevenv?ref=badge_large)
