@@ -8,7 +8,7 @@ Miscellaneous scripts:
 sync-github-repos: sychronizes all remote changes in all github.com/shantanusharma repositories into local copy. Custom etc/github-repos.cfg will synchronize corresponding projects.
 
 Miscellaneous configuration files:
-.Rprofile: R 
+.Rprofile: R fdafadfsaf
 .bashrc: Bashfdafas
 .config: Fish configurationfdafdaf
 .git-completion.bash: Git auto-completion scriptfdafdsaf
