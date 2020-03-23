@@ -11,7 +11,7 @@ Miscellaneous configuration files:
 .Rprofile: R 
 .bashrc: Bashfdafas
 .config: Fish configurationfdafdaf
-.git-completion.bash: Git auto-completion script
+.git-completion.bash: Git auto-completion scriptfdafdsaf
 .gitconfig: git testsetset
 .octaverc: GNU Octave 
 .pyrc: Pythondasdsadafdsaf
