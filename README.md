@@ -18,7 +18,7 @@ Miscellaneous configuration files:
 .screenrc: Configuration file for the screen command.fdafdsfdafda
 .vimrc, .vim folder: vim  files
 .wgetrc: wgetfdsfsdfsdffdafda
-fdsfsrewrewr
+fdsfsrewrewrfdafsadf
 yeeeeyfdafadsfsa
 fadfsaf
 fdafafds
