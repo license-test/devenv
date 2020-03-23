@@ -12,7 +12,7 @@ Miscellaneous configuration files:
 .bashrc: Bashfdafas
 .config: Fish configurationfdafdaf
 .git-completion.bash: Git auto-completion script
-.gitconfig: git 
+.gitconfig: git testsetset
 .octaverc: GNU Octave 
 .pyrc: Pythondasdsadafdsaf
 .screenrc: Configuration file for the screen command.fdafdsfdafda
