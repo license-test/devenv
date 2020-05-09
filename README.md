@@ -9,7 +9,7 @@ sync-github-repos: sychronizes all remote changes in all github.com/shantanushar
 
 Miscellaneous configuration files:
 .Rprofile: R fdafadfsaf
-.bashrc: Bashfdafas
+.bashrc: Bashfdafasaetwqtwqt
 .config: Fish configurationfdafdaf
 .git-completion.bash: Git auto-completion scriptfdafdsaf
 .gitconfig: git testsetset
