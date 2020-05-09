@@ -16,7 +16,7 @@ Miscellaneous configuration files:
 .octaverc: GNU Octave 
 .pyrc: Pythondasdsadafdsaf
 .screenrc: Configuration file for the screen command.fdafdsfdafda
-.vimrc, .vim folder: vim  files
+.vimrc, .vim folder: vim  filesfdafadsfdsa
 .wgetrc: wgetfdsfsdfsdffdafda
 fdsfsrewrewrfdafsadf
 yeeeeyfdafadsfsa
