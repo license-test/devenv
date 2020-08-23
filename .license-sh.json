@@ -1,7 +1,8 @@
 {
+  "ignored_packages": {},
   "projects": [
-    "./package-lock.json",
-    "./yarn.lock"
+    "./yarn.lock",
+    "./package-lock.json"
   ],
   "whitelist": [
     "Apache-1.0",
@@ -34,6 +35,5 @@
     "MPL 1.1",
     "Public Domain",
     "CPL-1.0"
-  ],
-  "ignored_packages": {}
+  ]
 }
