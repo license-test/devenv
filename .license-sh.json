@@ -1,8 +1,7 @@
 {
   "ignored_packages": {},
   "projects": [
-    "./yarn.lock",
-    "./package-lock.json"
+    "./yarn.lock"
   ],
   "whitelist": [
     "Apache-1.0",
